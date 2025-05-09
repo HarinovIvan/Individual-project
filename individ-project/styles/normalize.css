@@ -1,0 +1,57 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap"); */
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shafarik&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+    font-family: "Montserrat";
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Montserrat";
+	background: #f5f5f5;
+}

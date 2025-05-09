@@ -1,0 +1,362 @@
+body{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-logo {
+    width: 50px;
+    height: 28px;
+}
+
+.header-menu ul {
+    display: flex;
+    gap: 44px;
+}
+
+.header-menu ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: rgba(114, 110, 141, 1);
+}
+
+.header-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.header-menu ul li a:hover{
+    cursor: pointer;
+}
+
+.header-icons:hover {
+    cursor: pointer;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Hero-blocks {
+    padding: 60px 80px;
+}
+
+.Hero-blocks-container {
+    display: flex;
+}
+.Hero-blocks-text-content{
+    background-color: rgba(42, 37, 75, 1);
+    padding: 60px 0 0 60px;
+}
+
+.Hero-blocks-information {
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.Hero-blocks-btn {
+    background-color: rgba(249, 249, 249, 0.15);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 16px 32px;
+    margin: 41px 0 0 0;
+}
+
+.Hero-blocks-btn:hover {
+    cursor: pointer;
+    background-color: rgba(249, 249, 249, 0.329);
+    transition: all 0.4s ease-in 0s;
+}
+
+.Hero-blocks-btn:focus {
+    cursor: pointer;
+    background-color: rgba(249, 249, 249, 0.329);
+    transition: all 0.4s ease-in 0s;
+    outline: 1px solid black;
+}
+
+.Hero-blocks-btn:active {
+    cursor: pointer;
+    background-color: rgba(249, 249, 249, 0.089);
+    transition: all 0.4s ease-in 0s;
+    outline: 1px solid black;
+}
+
+.Hero-blocks-information-two {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 192px 26px 0 0;
+}
+
+.listings {
+    padding: 80px 0 0 80px;
+}
+
+.listings-title{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.listings-cards {
+    display: flex;
+    gap: 20px;
+    padding: 26.5px 0 0 0;
+}
+
+.listings-card:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in 0s;
+    cursor: pointer;
+}
+
+
+
+.listing-details{
+    padding: 24px 0 0 0;
+}
+
+.listing-text {
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 5px 0 0 0;
+}
+
+.listing-button{
+    display: flex;
+    justify-content: center;
+}
+
+.listing-btn{
+    background-color: rgba(249, 249, 249, 1);
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 16px 32px;
+    margin: 34.5px 0 0 0;
+}
+
+.feature-btn{
+    background-color: rgba(249, 249, 249, 1);
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 16px 32px;
+    margin: 34.5px 0 0 0;
+}
+
+.listing-btn:hover {
+    cursor: pointer;
+    background-color: rgba(78, 77, 147, 0.123);
+    transition: all 0.4s ease-in 0s;
+}
+
+.listing-btn:focus {
+    cursor: pointer;
+    background-color: rgba(78, 77, 147, 0.123);
+    transition: all 0.4s ease-in 0s;
+    outline: 1px solid black;
+}
+
+.listing-btn:active {
+    cursor: pointer;
+    background-color: rgba(78, 77, 147, 0.068);
+    transition: all 0.4s ease-in 0s;
+}
+.feature{
+    padding: 52px 0 0 0;
+}
+.feature-left-content{
+    display: flex;
+}
+
+.feature-top-content{
+    padding: 72px 100px 0 84px;
+}
+
+.feature-information{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    max-width: 574px;
+}
+
+.feature-information-two{
+    padding: 25px 0 ;
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 536px;
+}
+
+.feature-information-three{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 536px;
+}
+
+.footer{
+    background-color: rgba(42, 37, 75, 1);
+}
+
+.footer-form{
+    padding: 58px 0 0 82px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: flex;
+    gap: 90px;
+}
+
+.footer-title{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.footer-link ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+}
+.footer-link ul li{
+    padding: 12px 0 0 0;
+}
+
+.sign-up{
+    padding: 8px 0 0 0;
+    display: flex;
+}
+
+#emails::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+}
+#emails {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0 150px 0 32px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    line-height: 140%;
+    
+   
+}
+
+.footer-btn{
+    padding: 16px 32px;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.lineal{
+    margin: 56px 0 0 0;
+    max-width: 1287px;
+    border: 1px solid rgba(78, 77, 147, 1);
+}
+
+.footer-icons{
+    padding: 24px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+}
+
+.icon{
+    margin: 0 77px 0 0 ;
+    display: flex;
+    gap: 24px;
+}
+
+.validator{
+    color: red;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.active .menu-btn-burger::before{
+    transform: rotate(-90deg);
+}
+.active .menu-btn-burger::after {
+        opacity: 0;
+    }
+
+.active .menu-btn-burger{
+    transform: rotate(45deg);
+}
+
+/* 
+.active{
+    display: flex !important;
+    position: fixed;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 300px 0 0 0;
+} */
+
+
+
+.active{
+    display: flex !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    flex-direction: column;
+}

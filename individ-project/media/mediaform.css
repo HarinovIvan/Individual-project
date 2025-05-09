@@ -1,0 +1,108 @@
+@media(max-width: 390px){
+    .header-menu{
+        display: none;
+        font-size: 40px;
+    }
+    .header{
+        padding: 20px 0 22px 24px;
+    }
+
+    .footer-form{
+        padding: 40px 0 0 24px;
+    }
+
+    .footer-links{
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+    
+    #emails{
+        padding: 17px 29px 15px 32px;
+        max-width: 211px;
+    }
+
+    .lineal{
+        max-width: 342px;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .footer-icons{
+        justify-content: center;
+    }
+
+    .product-details{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .main-imaag{
+        width: 390px;
+        height: 380px;
+    }
+
+    .text-content{
+        padding: 28px 0 0 24px;
+    }
+
+    .main-title{
+        font-size: 20px;
+    }
+
+    .main-text-top{
+        font-size: 20px;
+    }
+
+    .line{
+        max-width: 342px;
+    }
+
+    .text-description{
+        font-size: 16px;
+    }
+
+    .lineale{
+        border: 1px solid rgba(235, 232, 244, 1);
+        max-width: 342px;
+        margin: 7px 0 24px 0;
+    }
+
+    .dimensios-text{
+        font-size: 16px;
+    }
+
+    .dimensios-text-lineas{
+        font-size: 16px;
+        padding: 0 0 19px 0;
+    }
+
+    .dimensios{
+        padding: 0;
+    }
+
+    #kolvo{
+        padding: 12px 140px;
+        max-width: 342px;
+    }
+
+    .product-cart{
+        padding: 16px 121.5px;
+        order: 2;
+    }
+
+    .product-save{
+        padding: 16px 96.5px;
+        order: 1;
+        margin: 0;
+        background-color: white;
+    }
+
+    .product-btn{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 24px 22px 0;
+        gap: 14px;
+    }
+}

@@ -1,0 +1,274 @@
+.headers{
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-logo {
+    width: 50px;
+    height: 28px;
+}
+
+.header-menu ul {
+    display: flex;
+    gap: 44px;
+}
+
+.header-menu ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: rgba(114, 110, 141, 1);
+}
+
+.header-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.header-menu ul li a:hover{
+    cursor: pointer;
+}
+
+.header-icons:hover {
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgba(42, 37, 75, 1);
+}
+
+.footer-form{
+    padding: 58px 0 0 82px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-links{
+    display: flex;
+    gap: 90px;
+}
+
+.footer-title{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.footer-link ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+}
+.footer-link ul li{
+    padding: 12px 0 0 0;
+}
+
+.sign-up{
+    padding: 8px 0 0 0;
+    display: flex;
+}
+
+#emails::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+}
+#emails {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0 150px 0 32px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    line-height: 140%;
+    
+   
+}
+
+.footer-btn{
+    padding: 16px 32px;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.lineal{
+    margin: 56px 0 0 0;
+    max-width: 1287px;
+    border: 1px solid rgba(78, 77, 147, 1);
+}
+
+.footer-icons{
+    padding: 24px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+}
+
+.icon{
+    margin: 0 77px 0 0 ;
+    display: flex;
+    gap: 24px;
+}
+
+.main{
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.product-details{
+    padding: 50px 0 47px 80px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.text-content{
+    padding: 31px 0 0 65px;
+}
+
+.main-title{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.main-text-top{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    padding: 16px 0 0 0;
+}
+
+.line{
+    border: 1px solid rgba(235, 232, 244, 1);
+    max-width: 518px;
+    margin: 36px 0 24px 0;
+}
+
+.text-description{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 14px 0 22px 0;
+    max-width: 498px;
+}
+
+.dimensios-text{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.dimensios-text-lineas{
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 15px 0 0 0;
+}
+
+.dimensios{
+    display: flex;
+    padding: 24px 0 9px 0;
+}
+
+.lines{
+    border: 1px solid rgba(235, 232, 244, 1);
+    max-height: 44px;
+    margin: 13.5px 39.25px;
+}
+
+.product-btn{
+    padding: 28px 0 0 0;
+}
+
+.product-cart{
+    background-color: rgba(42, 37, 75, 1);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 16px 32px;
+}
+
+.product-cart:hover{
+    background-color: rgb(30, 25, 59);
+    transition: all 0.3s ease-in 0s;
+    cursor: pointer;
+}
+
+.product-save{
+    background-color: white;
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 16px 32px;
+    margin: 0 0 0 16px;
+}
+
+.product-save:hover{
+    background-color: rgba(249, 249, 249, 1);
+    transition: all 0.3s ease-in 0s;
+    cursor: pointer;
+}
+
+#kolvo{
+    margin: 12px 0 0 0;
+    padding: 12px 39px;
+    color: rgba(42, 37, 75, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 122px;
+    min-height: 52px;
+}
+
+#kolvo::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.validator{
+    color: red;
+    font-weight: 400;
+    font-size: 20px;
+}
