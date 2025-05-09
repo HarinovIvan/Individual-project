@@ -1,15 +1,13 @@
 const menuBurger = document.querySelector('.menu-btn');
+const headerMeny = document.querySelector('.header-menu');
+const form = document.querySelector('#form');
+
 menuBurger.addEventListener('click', function(){
     menuBurger.classList.toggle('active');
-    let headerMeny = document.querySelector('.header-menu');
-    headerMeny.classList.toggle('open');
-})
+    headerMeny.classList.toggle('active');
+    document.body.classList.toggle('hidden');
+});
 
-
-
-
-
-const form = document.querySelector('#form');
 form.addEventListener('submit', (event) => {
     event.preventDefault();
     let pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/; 
@@ -25,4 +23,4 @@ form.addEventListener('submit', (event) => {
     }
     newElem.classList.add('validator');
     valid.appendChild(newElem);
-})
+});

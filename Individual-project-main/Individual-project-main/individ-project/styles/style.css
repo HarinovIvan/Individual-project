@@ -1,6 +1,19 @@
 body{
     background-color: white;
 }
+.hidden {
+    overflow: hidden;
+}
+
+.header-menu.active{
+    top: 0;
+    font-size: 40px;
+}
+
+.hero-image{
+    width:100%;
+    height:100%;
+}
 
 .header{
     display: flex;
@@ -10,6 +23,7 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .header-logo {
     width: 50px;
     height: 28px;
@@ -18,6 +32,7 @@ body{
 .header-menu ul {
     display: flex;
     gap: 44px;
+    font-size: 32px;
 }
 
 .header-menu ul li a{
@@ -42,7 +57,7 @@ body{
 
 .main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .Hero-blocks {
@@ -54,7 +69,8 @@ body{
 }
 .Hero-blocks-text-content{
     background-color: rgba(42, 37, 75, 1);
-    padding: 60px 0 0 60px;
+    flex: 1 1 60%;
+    padding: 60px;
 }
 
 .Hero-blocks-information {
@@ -99,11 +115,15 @@ body{
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    margin: 192px 26px 0 0;
+    margin: 192px 26px 50px 0;
+}
+
+.Hero-blocks-background{
+    flex: 1 1 40%;
 }
 
 .listings {
-    padding: 80px 0 0 80px;
+    padding: 80px;
 }
 
 .listings-title{
@@ -115,8 +135,13 @@ body{
 
 .listings-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 26.5px 0 0 0;
+}
+
+.listings-card{
+    flex: 1 1 calc(25% - 20px);
 }
 
 .listings-card:hover{
@@ -230,6 +255,7 @@ body{
 
 .footer-links{
     display: flex;
+    
     gap: 90px;
 }
 
@@ -263,7 +289,7 @@ body{
 }
 #emails {
     background-color: rgba(255, 255, 255, 0.15);
-    padding: 0 150px 0 32px;
+    padding: 15px 32px;
     font-weight: 400;
     font-size: 20px;
     color: white;
@@ -352,11 +378,3 @@ body{
 
 
 
-.active{
-    display: flex !important;
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-size: 40px;
-    flex-direction: column;
-}

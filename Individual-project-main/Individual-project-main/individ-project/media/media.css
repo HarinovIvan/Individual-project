@@ -1,0 +1,264 @@
+@media(max-width: 390px) {
+    .header-menu {
+        display: flex;
+        top: -100%;
+        left: 0;
+        position: fixed;
+        flex-direction: column;
+        background-color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        transition: top .3s ease-in-out 0s;
+    }
+
+    .header-menu ul {
+        gap: 3px;
+        z-index: 3;
+        flex-direction: column;
+        font-size: 60px;
+    }
+
+    .header {
+        padding: 20px 24px 22px 24px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        right: 0;
+    }
+
+
+
+    .menu-btn {
+        cursor: pointer;
+        margin: 7px 0 0 0;
+    }
+
+    .menu-btn-burger {
+        width: 15px;
+        height: 1px;
+        background-color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .menu-btn-burger::before,
+    .menu-btn-burger::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 1px;
+        background-color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .menu-btn-burger::before {
+        transform: translateY(-8px);
+    }
+
+    .menu-btn-burger::after {
+        transform: translateY(8px);
+    }
+
+    .Hero-blocks-background {
+        display: none;
+    }
+
+    .Hero-blocks {
+        padding: 0;
+    }
+
+    .Hero-blocks-text-content {
+        padding: 40px 24px 0 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Hero-blocks-information {
+        font-size: 20px;
+    }
+
+    .Hero-blocks-information-two {
+        font-size: 16px;
+        margin: 159px 0 0 0;
+        order: 1;
+    }
+
+    .Hero-blocks-btn {
+        padding: 16px 103.5px;
+        margin: 32px 0 45px 0;
+        order: 2;
+    }
+
+    .listings {
+        padding: 48px 24px 0 24px;
+    }
+
+    .listings-cards {
+        gap: 16px;
+        flex-wrap: wrap;
+
+    }
+
+    .listings-title {
+        font-size: 20px;
+    }
+
+    .listing-text {
+        font-size: 16px;
+    }
+
+    .image-list {
+        width: 163px;
+        height: 212px;
+    }
+
+    .listing-btn {
+        margin: 29px 0 34px 0;
+        padding: 16px 103.5px;
+    }
+
+    .feature {
+        padding: 0;
+    }
+
+    .feature-left-content {
+        flex-direction: column;
+    }
+
+    .feature-top-content {
+        padding: 48px 24px 0 24px;
+    }
+
+    .feature-information {
+        font-size: 20px;
+    }
+
+    .feature-information-two {
+        font-size: 16px;
+    }
+
+    .feature-information-three {
+        font-size: 16px;
+    }
+
+    .feature-btn {
+        padding: 16px 116px;
+        margin: 56px 0 34px 0;
+    }
+
+    .feature-img {
+        width: 390px;
+        height: 358px;
+    }
+
+    .footer-form {
+        padding: 40px 0 0 24px;
+    }
+
+    .footer-links {
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+
+    #emails {
+        padding: 17px 29px 15px 32px;
+        max-width: 211px;
+    }
+
+    .lineal {
+        max-width: 342px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px){
+    .header-menu {
+        display: flex;
+        top: -100%;
+        left: 0;
+        position: fixed;
+        flex-direction: column;
+        background-color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        transition: top .3s ease-in-out 0s;
+    }
+
+    .header-menu ul {
+        gap: 3px;
+        z-index: 3;
+        flex-direction: column;
+        font-size: 60px;
+    }
+
+    .header {
+        padding: 20px 24px 22px 24px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        right: 0;
+    }
+
+    .Hero-blocks-container{
+        flex-direction: column;
+    }
+
+
+
+    .menu-btn {
+        cursor: pointer;
+        margin: 7px 0 0 0;
+    }
+
+    .menu-btn-burger {
+        width: 15px;
+        height: 1px;
+        background-color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .menu-btn-burger::before,
+    .menu-btn-burger::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 1px;
+        background-color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .menu-btn-burger::before {
+        transform: translateY(-8px);
+    }
+
+    .menu-btn-burger::after {
+        transform: translateY(8px);
+    }
+
+    .feature-left-content{
+        flex-direction: column;
+    }
+
+    .footer-links{
+        flex-direction: column;
+    }
+
+    .listings-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+}
